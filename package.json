@@ -1,5 +1,5 @@
 {
-  "name": "ethers-multicall",
+  "name": "@oneverseswap/ov-multicall",
   "version": "0.2.3",
   "description": "Make multiple Ethereum network requests in a single HTTP query. ethcall for ethers v5.",
   "main": "dist/index.js",
@@ -26,7 +26,8 @@
     "typescript": "^4.2.4"
   },
   "dependencies": {
-    "ethers": "^5.0.0"
+    "ethers": "^5.0.0",
+    "np": "^7.6.3"
   },
   "peerDependencies": {
     "ethers": "^5.0.0"
@@ -36,10 +37,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cavanmflynn/ethers-multicall.git"
+    "url": "git+https://github.com/ONEverseONE/OV-multicall.git"
   },
   "bugs": {
-    "url": "https://github.com/cavanmflynn/ethers-multicall/issues"
+    "url": "https://github.com/ONEverseONE/OV-multicall/issues"
   },
-  "homepage": "https://github.com/cavanmflynn/ethers-multicall#readme"
+  "homepage": "https://oneverse.one/"
 }
